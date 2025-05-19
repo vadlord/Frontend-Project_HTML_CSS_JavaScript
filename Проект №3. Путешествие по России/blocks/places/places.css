@@ -1,0 +1,24 @@
+ .places {
+  margin: 0 auto 92px auto;
+  max-width: 984px;
+ }
+ /* Стили для иного расширениия */
+ @media screen and (max-width: 1250px) {
+   .places {
+     max-width: 928px;
+   }
+ }
+ /* Стили для иного расширениия */
+ @media screen and (max-width: 950px) {
+   .places {
+     margin: 0 auto 90px auto;
+     max-width: 720px;
+   }
+ }
+ /* Стили для иного расширениия (Mobile) */
+ @media screen and (max-width: 767px) {
+   .places {
+     margin: 0 0 66px 0;
+     max-width: 100%;
+   }
+ }
